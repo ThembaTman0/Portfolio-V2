@@ -7,7 +7,7 @@ import './About.scss';
 import { useEffect, useState } from 'react';
 
 import { urlFor, client } from '../../client';
-import { AppWrap } from '../../wrapper';
+import { AppWrap,MotionWrap } from '../../wrapper';
 
 // const about = [
 //   {title: 'Web Development', description: 'I am a good web developer.', imgUrl: images.about01},
@@ -57,4 +57,6 @@ import { AppWrap } from '../../wrapper';
   )
 }
 
-export default AppWrap(About, 'about')
+export default AppWrap(
+  MotionWrap(About, 'app__about')
+  ,'about',"black");
