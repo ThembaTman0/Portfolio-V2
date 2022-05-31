@@ -77,6 +77,12 @@ const Footer = () => {
           </h3>
         </div>
       )}
+
+      
+      <div className="copyright">
+        <p className="p-text">@2020 Themba</p>
+        <p className="p-text">All rights reserved</p>
+      </div>
     </>
   );
 };

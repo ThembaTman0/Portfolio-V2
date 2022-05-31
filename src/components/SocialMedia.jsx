@@ -8,13 +8,22 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
         <div>
+          <a href="https://github.com/ThembaTman0" rel="noreferrer" target="_blank">
             <VscGithub/>
+          </a>
+            
         </div>
         <div>
-            <ImCodepen/>
+        <a href="https://www.linkedin.com/in/themba-ngobeni-6a163b164/" rel="noreferrer" target="_blank">
+          <BsLinkedin/>
+        </a>
+        
         </div>
         <div>
-            <BsLinkedin/>
+        <a href="https://codepen.io/thembatman0" rel="noreferrer" target="_blank">
+          <ImCodepen/>
+        </a>
+            
         </div>
     </div>
   )

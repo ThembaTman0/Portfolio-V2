@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
 import {BiBook, BiMessageSquareDetail} from 'react-icons/bi'
+import {BiCodeCurly} from 'react-icons/bi'
 import {VscTools} from 'react-icons/vsc'
 
 import {motion} from 'framer-motion';
@@ -17,10 +18,10 @@ const BottomNav = () => {
      <nav className="navbar">
 
         <a href='#'><AiOutlineHome/></a>
-        <a href='#'><AiOutlineUser/></a>
-
-        <a href='#'><VscTools/></a>
-        <a href='#'><BiMessageSquareDetail/></a>
+        <a href='#about'><AiOutlineUser/></a>
+        <a href='#work' ><BiCodeCurly/></a>
+        <a href='#skills'><VscTools/></a>
+        <a href='#contact'><BiMessageSquareDetail/></a>
     </nav>
     </motion.div>
 

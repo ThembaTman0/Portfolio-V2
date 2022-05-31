@@ -15,12 +15,12 @@ const Navbar = () => {
          */}
          <a href='#'>Themba</a>
       </div>
-      <ul className='app__navbar-links'>
+      <ul className="app__navbar-links">
         {/* Map these to the nav bar list using this */}
-        {[ 'About', 'Work', 'Skills', 'Contact' ].map((item)=>(
-          <li key={'link-${item}'} className='app__flex p-text'>
+        {[ 'about', 'work', 'skills', 'contact' ].map((item)=>(
+          <li key={`link-${item}`} className='app__flex p-text'>
             <div/>
-            <a href='#${item}'>{item}</a>
+            <a href={`#${item}`}>{item}</a>
           </li>
         ))}
       </ul>

@@ -46,8 +46,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-  
+
     p {
+      
       text-transform: uppercase;
       color: var(--secondary-color);
     }
@@ -55,7 +56,7 @@
   
   .head-text {
     font-size: 2.75rem;
-    font-weight: 800;
+    font-weight: 300;
     text-align: center;
     color: var(--white-color);
     text-transform: capitalize;
@@ -111,7 +112,7 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: var(--gray-color);
+      // background-color: var(--gray-color);
       margin: 0.25rem 0;
       // border: 1px solid var(--lightGray-color);
   
@@ -122,13 +123,14 @@
       transition: all 0.3s ease-in-out;
   
       svg {
+        
         width: 15px;
         height: 15px;
         color: var(--secondary-color);
       }
   
       &:hover {
-        background-color: var(--secondary-color);
+        // background-color: var(--secondary-color);
         border-color: var(--secondary-color);
         
   
