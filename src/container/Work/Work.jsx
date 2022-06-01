@@ -45,7 +45,7 @@ const Work = () => {
   return (
   <>
       <h3 className="head-text">
-      My Creative <span> Portfolio </span> Section
+      Some things I've <span> Built </span>
       </h3> 
       <div className="app__work-filter">
         {['Python','Web App', 'React JS', 'Ai and ML', 'All'].map((item, index) =>(

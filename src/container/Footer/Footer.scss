@@ -9,12 +9,14 @@
   }
   
   .app__footer-cards {
-    width: 60%;
+    width: 50%;
+    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 4em 2rem 2rem;
+    margin: 4rem 2rem 1rem;
+    
   
     .app__footer-card {
       min-width: 290px;
@@ -25,41 +27,45 @@
   
       margin: 1rem 0;
       padding: 1rem;
-      border-radius: 10px;
+
       cursor: pointer;
-      background-color:var(--gray-color);
-  
-      transition: all 0.3s ease-in-out;
+      
+      
+      // transition: all 0.3s ease-in-out;
 
   
       p {
         font-weight: 400;
+
       }
       a {
         text-decoration: none;
         font-weight: 400;
+        
       }
-      &:hover {
-        box-shadow: 0 0 15px #1d1d1d;
-      }
+
+      // &:hover {
+      //   box-shadow: 0 0 15px #1d1d1d;
+      // }
   
       @media screen and (max-width: 450px) {
         width: 100%;
       }
     }
   
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 2000px) {
       width: 100%;
+      justify-content: center;
     }
   }
+
+  // .app__footer-cards .app__footer-card:last-child {
+  //   background-color: var(--gray-color);
+  // }
   
-  .app__footer-cards .app__footer-card:last-child {
-    background-color: var(--gray-color);
-  }
-  
-  .app__footer-cards .app__footer-card:last-child:hover {
-    box-shadow: 0 0 15px #1d1d1d;
-  }
+  // .app__footer-cards .app__footer-card:last-child:hover {
+  //   box-shadow: 0 0 15px #1d1d1d;
+  // }
   
   .app__footer-form {
     width: 60%;
@@ -176,4 +182,4 @@
       }
     }
   }
-  
+

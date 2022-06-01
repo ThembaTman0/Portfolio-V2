@@ -38,6 +38,11 @@ import { AppWrap,MotionWrap } from '../../wrapper';
         <span> Good Business </span>
       </h3>  
 
+      <div className="head-paragraph">
+        <p>Hello! My name is <span>Themba Ngobeni</span>, and I am a student majoring in <span>Computer Science</span>. My <br />fascination with <span>web development</span> began in 2017, when I decided to make my first <span>threeJS</span> <br />game for a school project.
+Fast forward to now, and I've developed projects with <br /> <span>REACT JS</span>, <span>Python</span> and I've gained alot of interest in <span>AI and Machine Learning</span>.
+        </p>
+      </div>
       <div className="app__profile">
         {abouts.map((abouts, index)=> (
           <motion.div

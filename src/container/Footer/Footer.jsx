@@ -6,52 +6,68 @@ import { client } from '../../client';
 import './Footer.scss';
 import {MdOutlineMail} from 'react-icons/md'
 import {BsPhone} from 'react-icons/bs'
+import {BiGitRepoForked} from 'react-icons/bi'
 
 const Footer = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
+  // const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  // const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
-  const { username, email, message } = formData;
+  // const { username, email, message } = formData;
 
-  const handleChangeInput = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+  // const handleChangeInput = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData({ ...formData, [name]: value });
+  // };
 
-  const handleSubmit = () => {
-    setLoading(true);
+  // const handleSubmit = () => {
+  //   setLoading(true);
 
-    const contact = {
-      _type: 'contact',
-      name: formData.username,
-      email: formData.email,
-      message: formData.message,
-    };
+  //   const contact = {
+  //     _type: 'contact',
+  //     name: formData.username,
+  //     email: formData.email,
+  //     message: formData.message,
+  //   };
 
-    client.create(contact)
-      .then(() => {
-        setLoading(false);
-        setIsFormSubmitted(true);
-      })
-      .catch((err) => console.log(err));
-  };
+  //   client.create(contact)
+  //     .then(() => {
+  //       setLoading(false);
+  //       setIsFormSubmitted(true);
+  //     })
+  //     .catch((err) => console.log(err));
+  // };
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
-
+      <h2 className="head-text">Get in touch</h2>
+      <div className="head-paragraph">
+        <p>My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+      </div>
+      
       <div className="app__footer-cards">
-        <div className="app__footer-card ">
-          <MdOutlineMail style={{color: '#ff9900', fontSize: '30px', margin: '1rem'}}/>
-          <a href="thembatman0@gmail.com" className="p-text">thembatman0@gmail.com</a>
-        </div>
         <div className="app__footer-card">
-          <BsPhone style={{color: '#ff9900', fontSize: '30px', margin: '1rem'}}/>
-          <a href="tel:+27606296365" className="p-text">+27606296365</a>
+          <a href="mailto:thembatman0@gmail.com" rel="noreferrer" className="p-text">
+            <div className="app__footer-card">
+            <MdOutlineMail style={{color: '#ff9900', fontSize: '30px', margin: '1rem'}}/>
+              thembatman0@gmail.com
+            </div>
+          </a>
+        </div>
+
+        <div className="app__footer-card">
+        <a href="tel:+27606296365" className="p-text">
+            <div className="app__footer-card">
+            <BsPhone style={{color: '#ff9900', fontSize: '30px', margin: '1rem'}}/>
+            +27606296365
+            </div>
+          </a>
         </div>
       </div>
-      {!isFormSubmitted ? (
+      <div>
+
+      </div>
+      {/* {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
@@ -76,12 +92,15 @@ const Footer = () => {
             Thank you for getting in touch!
           </h3>
         </div>
-      )}
+      )} */}
 
-      
-      <div className="copyright">
-        <p className="p-text">@2020 Themba</p>
-        <p className="p-text">All rights reserved</p>
+        <div className="head-paragraph"> 
+          <a href="https://github.com/ThembaTman0/Portfolio-V2" target="_blank" rel="noreferrer">
+           <h1  class="shimmer"> Designed & Built by Themba Ngobeni</h1>
+          </a>
+        </div>
+      <div className="head-paragraph">
+        <p className="p-text"><span>@2020 Themba. All rights reserved</span></p>
       </div>
     </>
   );
