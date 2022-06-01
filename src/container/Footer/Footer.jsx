@@ -40,7 +40,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Get in touch</h2>
+      <h2 className="head-text">Get in <span>touch</span></h2>
       <div className="head-paragraph">
         <p>My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
       </div>
@@ -100,7 +100,10 @@ const Footer = () => {
           </a>
         </div>
       <div className="head-paragraph">
-        <p className="p-text"><span>@2020 Themba. All rights reserved</span></p>
+        <a href="https://thembatman.netlify.app/" target="_blank" rel="noreferrer " className="p-text">2021: Version 1.0</a>
+      </div>
+      <div className="head-paragraph">
+        <p className="p-text"><span>@2022 Themba. All rights reserved</span></p>
       </div>
     </>
   );
