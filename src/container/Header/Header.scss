@@ -106,7 +106,7 @@
   
     span {
       font-size: 2.5rem;
-  
+      
       @media screen and (min-width: 2000px) {
         font-size: 5rem;
       }
@@ -116,7 +116,13 @@
       justify-content: flex-start;
       align-items: flex-start;
     }
+    .orange{
+      font-size: 1.2rem;
+      color: var(--secondary-color);
+    }
   }
+
+
   
   .app__header-circles {
     flex: 0.75;
