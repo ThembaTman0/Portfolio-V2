@@ -3,7 +3,7 @@
   Portfolio Website
 </h1>
 <p align="center">
-  <a href="https://thembangobeni.netlify.app/" target="_blank">thembangobeni.netlify.app</a> built with <a href="https://reactjs.org/" target="_blank">React JS</a> and hosted with <a href="https://pages.github.com/" target="_blank">Netlify</a>
+  <a href="https://thembangobeni.netlify.app/" target="_blank">thembangobeni.netlify.app</a> built with <a href="https://reactjs.org/" target="_blank">React JS</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
 <div align="center">
