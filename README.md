@@ -15,12 +15,6 @@
 * Install [VScode](https://code.visualstudio.com/)
 * Installed [Node JS](https://nodejs.org/en/download/)
 
-
-   ```sh
-   npm install -D tailwindcss
-   ```
-* Install [Live Searver](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
 ## 🚀 Building and Running for Production
 
 *  Run
@@ -42,4 +36,4 @@
 
 Please review the [license](LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.).
 * Please do not copy it directly.
-* Please give me proper credit by linking back to [thembatman0.github.io](https://thembatman0.github.io/Portfolio/) Thanks!
+* Please give me proper credit by linking back to [thembangobeni.netlify.app/](https://thembangobeni.netlify.app/) Thanks!
