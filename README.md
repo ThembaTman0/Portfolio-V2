@@ -3,7 +3,7 @@
   Portfolio Website
 </h1>
 <p align="center">
-  <a href="https://thembangobeni.netlify.app/" target="_blank">thembangobeni.netlify.app/</a> built with <a href="https://reactjs.org/" target="_blank">tailwindcss</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  <a href="https://thembangobeni.netlify.app/" target="_blank">thembangobeni.netlify.app</a> built with <a href="https://reactjs.org/" target="_blank">React JS</a> and hosted with <a href="https://pages.github.com/" target="_blank">Netlify</a>
 </p>
 
 <div align="center">
@@ -14,7 +14,7 @@
 ## Installation & Requirements
 * Install [VScode](https://code.visualstudio.com/)
 * Installed [Node JS](https://nodejs.org/en/download/)
-* Install the tailwindcss
+
 
    ```sh
    npm install -D tailwindcss
@@ -23,7 +23,17 @@
 
 ## 🚀 Building and Running for Production
 
-* Open a project and click to Go Live from the status bar 
+*  Run
+*  ```sh
+   npx create-react-app my-app
+   ```
+   ```sh
+   cd my-app
+   ```
+   ```sh
+   npm start
+   ```
+
 
 <!--  ## 🎨 Color Reference
 
