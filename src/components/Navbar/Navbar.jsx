@@ -26,7 +26,7 @@ const Navbar = () => {
       </ul>
 
       <div className='app__navbar-logo'>
-        <a href="https://github.com/ThembaTman0/hosted-assets/blob/main/RESUME.pdf" target="_blank"><button>Resume
+        <a href="https://github.com/ThembaTman0/Portfolio-V2/blob/main/src/pdf/RESUME.pdf" target="_blank"><button>Resume
             </button></a>
       </div>
 
